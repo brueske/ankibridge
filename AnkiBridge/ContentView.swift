@@ -8,30 +8,23 @@ struct ContentView: View {
     var body: some View {
         NavigationSplitView {
             SidebarView()
+                // Set a firm minimum width for the sidebar.
+                .frame(minWidth: 220)
                 .navigationSplitViewColumnWidth(min: 220, ideal: 290, max: 440)
+                // Give the sidebar higher layout priority so it resists shrinking
+                .layoutPriority(1)
         } detail: {
             VSplitView {
                 ChatView()
-                    .frame(minWidth: 480, minHeight: 220)
+                    .frame(minWidth: 320, minHeight: 220)
                 CardsPaneView()
-                    .frame(minWidth: 480, minHeight: 240)
+                    .frame(minWidth: 320, minHeight: 240)
             }
-            .navigationSplitViewColumnWidth(min: 480, ideal: 700)
+            // Set a firm minimum width for the detail column.
+            .navigationSplitViewColumnWidth(min: 320, ideal: 700)
         }
-        .background(WindowAccessor { window in
-            // Pin the window's AppKit-level min size. The SwiftUI .frame /
-            // .windowResizability modifiers don't reliably reach NSWindow in
-            // every configuration, so we set contentMinSize ourselves. This is
-            // what makes the sidebar hold its width as the window shrinks: the
-            // detail column hits its 480pt floor, the window refuses to go
-            // smaller, and the sidebar is never squeezed.
-            let minSize = NSSize(width: 900, height: 640)
-            window.contentMinSize = minSize
-            window.minSize = NSSize(
-                width: minSize.width,
-                height: minSize.height + window.frame.height - window.contentLayoutRect.height
-            )
-        })
+        .navigationSplitViewStyle(.balanced) // Explicitly set balanced style
+        .background(WindowMinSizeSetter())
         .toolbar {
             ToolbarItem(placement: .principal) {
                 Picker("Note type", selection: $state.noteKind) {
@@ -72,5 +65,52 @@ struct ContentView: View {
                     .background(.bar)
             }
         }
+    }
+}
+
+// MARK: - WindowMinSizeSetter
+
+/// A representable view that sets the minimum size of the containing NSWindow.
+/// This is more reliable than SwiftUI's .windowResizability for strict minimums.
+struct WindowMinSizeSetter: NSViewRepresentable {
+    func makeNSView(context: Context) -> NSView {
+        let view = NSView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        
+        // We set the min size on the window. This needs to happen after the view
+        // is added to the window. We use a DispatchQueue to ensure the view
+        // is in the hierarchy.
+        DispatchQueue.main.async {
+            updateWindowSize(for: view)
+        }
+        
+        return view
+    }
+    
+    func updateNSView(_ nsView: NSView, context: Context) {
+        updateWindowSize(for: nsView)
+    }
+    
+    private func updateWindowSize(for view: NSView) {
+        guard let window = view.window else { return }
+        
+        // Define the minimum widths for the columns
+        let sidebarMinWidth: CGFloat = 220
+        let detailMinWidth: CGFloat = 320
+        let dividerWidth: CGFloat = 10 // Approximate width of the split view divider
+        
+        // Calculate the total minimum content width
+        let totalMinWidth = sidebarMinWidth + detailMinWidth + dividerWidth
+        
+        // Set the window's minimum size
+        let minSize = NSSize(width: totalMinWidth, height: 640)
+        window.contentMinSize = minSize
+        
+        // Also set the frame min size to account for the window chrome
+        // This ensures the user cannot resize the window smaller than this.
+        window.minSize = NSSize(
+            width: minSize.width,
+            height: minSize.height + window.frame.height - window.contentLayoutRect.height
+        )
     }
 }

@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A00C2FF0DB509DF9AFF114D5 /* AnkiBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6A601EA09CCCE29E4A139 /* AnkiBridgeApp.swift */; };
-		0E9A0444A5A55FA0E7DA89C1 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456F8D7ED2602D57F4397B97 /* AppState.swift */; };
-		8FF9B0113F67712AEF7A0A8C /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD065931F93BAA94A9E07C25 /* AppSettings.swift */; };
-		D65D3FCCC0D945B3C206158B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE68CF2CA534E011F0AA04C0 /* Models.swift */; };
-		E2B93A768F23FB3459D72350 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC6F670306A48A8953F4E6 /* Attachment.swift */; };
-		CFB33F5C14C61CEF7A3EA9D9 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3E3B5E0A542AA9883748E /* OpenAIClient.swift */; };
 		0D7DDC02A215FE38C97641FD /* AnkiConnectClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93781CE345616B75AF23881 /* AnkiConnectClient.swift */; };
-		FC25BBEA543FC72E028474A6 /* CardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631651341A0DE09E6ECD6037 /* CardParser.swift */; };
-		DD290405D0F01FB271BC8985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B57D7A52FC0CBAD03CEBC /* ContentView.swift */; };
+		0E9A0444A5A55FA0E7DA89C1 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456F8D7ED2602D57F4397B97 /* AppState.swift */; };
+		1BA9BA590C4D035718D4BDDE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318034F5ED85859EA59EEA3C /* SettingsView.swift */; };
+		50D5065C187474E1788C7E11 /* CardsPaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D1488AEC7D2CE85718AA6C /* CardsPaneView.swift */; };
 		524AA8AB4598A3F33282C669 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5632552AD08AB2AE8FE6B /* SidebarView.swift */; };
 		6737322077D413201D8C4AB1 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A11E63E74C4158EEC89D73 /* ChatView.swift */; };
-		50D5065C187474E1788C7E11 /* CardsPaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D1488AEC7D2CE85718AA6C /* CardsPaneView.swift */; };
-		1BA9BA590C4D035718D4BDDE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318034F5ED85859EA59EEA3C /* SettingsView.swift */; };
+		8FF9B0113F67712AEF7A0A8C /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD065931F93BAA94A9E07C25 /* AppSettings.swift */; };
+		A00C2FF0DB509DF9AFF114D5 /* AnkiBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6A601EA09CCCE29E4A139 /* AnkiBridgeApp.swift */; };
+		CFB33F5C14C61CEF7A3EA9D9 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3E3B5E0A542AA9883748E /* OpenAIClient.swift */; };
+		D65D3FCCC0D945B3C206158B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE68CF2CA534E011F0AA04C0 /* Models.swift */; };
+		DD290405D0F01FB271BC8985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B57D7A52FC0CBAD03CEBC /* ContentView.swift */; };
+		E2B93A768F23FB3459D72350 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC6F670306A48A8953F4E6 /* Attachment.swift */; };
 		EE471D652B6A15940F6C4A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4A6CAC76DAAF8BF6C42990 /* Assets.xcassets */; };
+		FC25BBEA543FC72E028474A6 /* CardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631651341A0DE09E6ECD6037 /* CardParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		845F65209D19F1E91A3C573D /* AnkiBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkiBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACC6A601EA09CCCE29E4A139 /* AnkiBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiBridgeApp.swift; sourceTree = "<group>"; };
-		456F8D7ED2602D57F4397B97 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		AD065931F93BAA94A9E07C25 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
-		FE68CF2CA534E011F0AA04C0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		25CC6F670306A48A8953F4E6 /* Attachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
-		8AD3E3B5E0A542AA9883748E /* OpenAIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
-		F93781CE345616B75AF23881 /* AnkiConnectClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiConnectClient.swift; sourceTree = "<group>"; };
-		631651341A0DE09E6ECD6037 /* CardParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardParser.swift; sourceTree = "<group>"; };
-		A67B57D7A52FC0CBAD03CEBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		98B5632552AD08AB2AE8FE6B /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
-		91A11E63E74C4158EEC89D73 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		61D1488AEC7D2CE85718AA6C /* CardsPaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsPaneView.swift; sourceTree = "<group>"; };
 		318034F5ED85859EA59EEA3C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		456F8D7ED2602D57F4397B97 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		61D1488AEC7D2CE85718AA6C /* CardsPaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsPaneView.swift; sourceTree = "<group>"; };
+		631651341A0DE09E6ECD6037 /* CardParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardParser.swift; sourceTree = "<group>"; };
+		845F65209D19F1E91A3C573D /* AnkiBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkiBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD3E3B5E0A542AA9883748E /* OpenAIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
+		91A11E63E74C4158EEC89D73 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		98B5632552AD08AB2AE8FE6B /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		A67B57D7A52FC0CBAD03CEBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACC6A601EA09CCCE29E4A139 /* AnkiBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiBridgeApp.swift; sourceTree = "<group>"; };
+		AD065931F93BAA94A9E07C25 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		BC4A6CAC76DAAF8BF6C42990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E578D3F1A44A25139D95A1B2 /* AnkiBridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnkiBridge.entitlements; sourceTree = "<group>"; };
+		F93781CE345616B75AF23881 /* AnkiConnectClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiConnectClient.swift; sourceTree = "<group>"; };
+		FE68CF2CA534E011F0AA04C0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,22 +53,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDA6D6223944636B9C5B54AA = {
-			isa = PBXGroup;
-			children = (
-				3A2A88DEEFF3D1D23E496597 /* AnkiBridge */,
-				FBDC4F23F93125BBEEAE800C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		FBDC4F23F93125BBEEAE800C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				845F65209D19F1E91A3C573D /* AnkiBridge.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3A2A88DEEFF3D1D23E496597 /* AnkiBridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +73,22 @@
 				E578D3F1A44A25139D95A1B2 /* AnkiBridge.entitlements */,
 			);
 			path = AnkiBridge;
+			sourceTree = "<group>";
+		};
+		EDA6D6223944636B9C5B54AA = {
+			isa = PBXGroup;
+			children = (
+				3A2A88DEEFF3D1D23E496597 /* AnkiBridge */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845F65209D19F1E91A3C573D /* AnkiBridge.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +119,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 2650;
 				TargetAttributes = {
 					0E8A3AD980EC179856012B7E = {
 						CreatedOnToolsVersion = 16.0;
@@ -179,6 +179,72 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1E0D549F0915174FF8BD83EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnkiBridge/AnkiBridge.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = PQFU95UDGF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankibridge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9DDA0FC41D82F4AB4C32F490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnkiBridge/AnkiBridge.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = PQFU95UDGF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankibridge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E8A664B426DCB939B812EAF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -187,21 +253,49 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PQFU95UDGF;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -215,90 +309,64 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PQFU95UDGF;
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		1E0D549F0915174FF8BD83EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AnkiBridge/AnkiBridge.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ankibridge.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		9DDA0FC41D82F4AB4C32F490 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AnkiBridge/AnkiBridge.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ankibridge.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6CC217727934A074E68F345 /* Build configuration list for PBXProject "AnkiBridge" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8A664B426DCB939B812EAF0 /* Debug */,
-				EE021C88C2F80797F2C6EAC5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8198663431F2A521B811DB48 /* Build configuration list for PBXNativeTarget "AnkiBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E0D549F0915174FF8BD83EB /* Debug */,
 				9DDA0FC41D82F4AB4C32F490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CC217727934A074E68F345 /* Build configuration list for PBXProject "AnkiBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A664B426DCB939B812EAF0 /* Debug */,
+				EE021C88C2F80797F2C6EAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
